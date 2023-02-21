@@ -1,0 +1,50 @@
+body {
+    background-color: #EDEDED;
+}
+#cuerpo-doc {
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-color: white;
+    border-radius: 3pt 3pt 0 0;
+    box-shadow: 0 0 4px #dbdbdb;
+}
+#avatar-imagen {
+    margin: auto;
+    padding: 0.3em;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a3a3a3;
+    box-shadow: 0px 0px 4px gray;
+}
+#avatar-imagen img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#nombre-cv {
+    text-align: center;
+    margin: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#nombre {
+    text-align: center;
+}
+#cv {
+    text-align: center;
+    color: #757575;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    margin: auto;
+    padding: 0;
+}
