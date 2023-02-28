@@ -1,0 +1,146 @@
+body {
+    background-color: #4e4e4e;
+    background-image: url("nami.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    margin-bottom: 0.3em;
+}
+#nav-fixed {
+    background-color: white;
+    box-shadow: 0 0 4px #dbdbdb;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    transition: top 0.3s;
+}
+#cuerpo-doc {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-color: white;
+    background-image: url("gray-floral.png");
+    background-repeat: repeat;
+    border-radius: 3pt 3pt 0 0;
+    box-shadow: 0 0 4px #dbdbdb;
+}
+#avatar-imagen {
+    margin: auto;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b1b1b1;
+    box-shadow: 0px 0px 4px rgb(170, 170, 170);
+}
+#avatar-imagen img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#nombre-cv {
+    text-align: center;
+    margin: auto;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+#nombre-presentacion {
+    text-align: center;
+    font-family: 'Gloock', serif;
+    text-shadow: 0 0 2px rgb(138, 138, 138);
+}
+#cv {
+    text-align: center;
+    color: #757575;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    margin: auto;
+    padding: 0;
+}
+section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    background-color: white;
+    box-shadow: 0 0 5px #dbdbdb;
+}
+.seccion {
+    padding: 1em 7% 70px 7%;
+}
+h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.7em;
+}
+#sect-exp {
+    display: none;
+}
+#sect-estudios {
+    display: none;
+}
+#sect-info {
+    display: none;
+}
+#sect-contacto {
+    display: none;
+}
+form {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+label {
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    text-align: right;
+    display: block;
+}
+#boton-enviar {
+    margin-top: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #757575;
+    background-image: url("black-orchid.png");
+    background-repeat: repeat;
+    color: #dbdbdb;
+    padding-top: 0;
+    padding-bottom: 1.2em;
+    text-align: center;
+    box-shadow: 0 3px 4px #000000;
+    border-radius: 0 0 3pt 3pt;
+    font-family: 'Roboto Mono', monospace;
+}
+footer p {
+    font-size: 0.7em;
+    margin-bottom: 0;
+}
+#footer-adorno {
+    border-radius: 0 0 50% 50%;
+    height: 8px;
+    background-color: #dbdbdb;
+    margin-bottom: 20pt;
+}

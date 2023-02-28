@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curriculum Vitae</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Raleway:wght@300&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-fixed" class="col-12 col-sm-7">
+        <nav class="nav">
+            <ul class="btn-group">
+                <button type="button" id="boton-perfil-fix" class="btn btn-dark">Perfil</button>
+                <button type="button" id="boton-exp-fix" class="btn btn-dark">Exp.</button>
+                <button type="button" id="boton-estudios-fix" class="btn btn-dark">Estudios</button>
+                <button type="button" id="boton-info-fix" class="btn btn-dark">+info</button>
+                <button type="button" id="boton-contacto-fix" class="btn btn-dark">Contacto</button>
+            </ul>
+        </nav>
+    </div>
+    <div id="cuerpo-doc" class="container col-12 col-sm-10">
+        <header>
+            <div id="avatar-imagen" class="col-3 col-md-2">
+                <div id="marco-imagen">
+                    <img src="pexels-sindre-fs-1040880.jpg" class="rounded-circle" alt="Imagen de Perfil"/>
+                </div>
+            </div>
+            <div id="nombre-cv" class="col-7">
+                <h1 id="nombre-presentacion" class="h1">Nombre Apellido</h1>
+                <h2 id="cv" class="h6">Curriculum Vitae</h2>
+            </div>
+            <nav class="nav">
+                <ul class="btn-group">
+                    <button type="button" id="boton-perfil" class="btn btn-dark">Perfil</button>
+                    <button type="button" id="boton-exp" class="btn btn-dark">Exp.</button>
+                    <button type="button" id="boton-estudios" class="btn btn-dark">Estudios</button>
+                    <button type="button" id="boton-info" class="btn btn-dark">+info</button>
+                    <button type="button" id="boton-contacto" class="btn btn-dark">Contacto</button>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div id="sect-perfil" class="seccion">
+                <h4 class="fw-bold">Datos de Contacto:</h4>
+                <p><b>Nombre: </b><span id="nombre">...</span></p>
+                <p><b>Teléfono: </b><span id="tel">...</span></p>
+                <p><b>E-mail: </b><span id="email">...</span></p>
+                <p><b>Calle: </b><span id="calle">...</span></p>
+                <p><b>Ciudad: </b><span id="ciudad">...</span></p>
+                <p><b>Código postal: </b><span id="cp">...</span></p>
+                <p><b>Provincia: </b><span id="provincia">...</span></p>
+            </div>
+            <div id="sect-exp" class="seccion">
+                <div>
+                    <h4 id="empresa1" class="fw-bold">Empresa 1</h4>
+                    <p id="empresa1-periodo" class="fst-italic">Periodo: 2020 - 2021</p>
+                    <p id="empresa1-puesto">Auxiliar</p>
+                    <p id="empresa1-info">Fusce ac est vitae tellus volutpat dictum non a lectus. Sed quis feugiat turpis. Donec nec consectetur lectus, sit amet accumsan arcu. Sed lacinia non urna non pulvinar. Cras ultricies nunc nec mollis semper.</p>
+                </div>
+                <div>
+                    <h4 id="empresa2" class="fw-bold">Empresa 2</h4>
+                    <p id="empresa2-periodo" class="fst-italic">Periodo: 2021 - 2022</p>
+                    <p id="empresa2-puesto">Programador</p>
+                    <p id="empresa2-info">Nullam tristique nisi ac finibus sodales. Phasellus gravida arcu in neque interdum, sit amet fringilla diam convallis. Quisque nec arcu venenatis, rhoncus felis eget, fringilla velit.</p>
+                </div>
+                <div>
+                    <h4 id="empresa3" class="fw-bold">Empresa 3</h4>
+                    <p id="empresa3-periodo" class="fst-italic">Periodo: 2022 - 2023</p>
+                    <p id="empresa3-puesto">Cheff Senior</p>
+                    <p id="empresa3-info">Donec placerat dui elit, in blandit urna porttitor sed. Morbi interdum lacus magna, et sagittis velit tincidunt id. Cras finibus feugiat quam ac auctor. Integer maximus ipsum et tristique dictum. In tempus ut orci id blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+            </div>
+            <div id="sect-estudios" class="seccion">
+                <div>
+                    <h4 id="titul1" class="fw-bold">Java Senior</h4>
+                    <p id="titul1-estado" class="fst-italic">Completado</p>
+                    <p id="titul1-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra ligula vel ligula rhoncus interdum. Praesent tempus tellus diam, et aliquet mauris vulputate a. Nunc auctor in ex placerat sagittis. Quisque dapibus ligula quis est ultricies aliquam. Sed semper libero sed mauris faucibus, eget tempor sapien pulvinar. Donec blandit lectus id nisi tincidunt, quis ultricies metus consectetur.</p>
+                </div>
+                <div>
+                    <h4 id="titul2" class="fw-bold">C++</h4>
+                    <p id="titul2-estado" class="fst-italic">Completado</p>
+                    <p id="titul2-info">In hac habitasse platea dictumst. Proin ut sagittis nunc, sit amet ullamcorper tortor. Aliquam vel urna a velit euismod pretium. Pellentesque vitae hendrerit ante. Ut gravida iaculis hendrerit. In elementum et velit quis dignissim. Proin imperdiet gravida ipsum, vel dictum arcu aliquam nec.</p>
+                </div>
+                <div>
+                    <h4 id="titul3" class="fw-bold">Ingeniero en Informática</h4>
+                    <p id="titul3-estado" class="fst-italic">En curso</p>
+                    <p id="titul3-info">Praesent a erat vitae sapien rhoncus pretium. Sed quis arcu vel leo rhoncus molestie eget id dolor. Aenean placerat et ligula non dapibus. Donec non elementum est, sit amet placerat augue. Phasellus vel arcu dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque non faucibus ante, eu tincidunt odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ullamcorper venenatis posuere.</p>
+                </div>
+            </div>
+            <div id="sect-info" class="seccion">
+                <div>
+                    <h4 class="fw-bold">Un poco más acerca de mi</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra ligula vel ligula rhoncus interdum. Praesent tempus tellus diam, et aliquet mauris vulputate a. Nunc auctor in ex placerat sagittis. Quisque dapibus ligula quis est ultricies aliquam. Sed semper libero sed mauris faucibus, eget tempor sapien pulvinar. Donec blandit lectus id nisi tincidunt, quis ultricies metus consectetur. In hac habitasse platea dictumst. Proin ut sagittis nunc, sit amet ullamcorper tortor. Aliquam vel urna a velit euismod pretium. Pellentesque vitae hendrerit ante. Ut gravida iaculis hendrerit. In elementum et velit quis dignissim. Proin imperdiet gravida ipsum, vel dictum arcu aliquam nec. Morbi ullamcorper ex vitae dui congue imperdiet. Mauris porta dui lacus, vel pellentesque tortor scelerisque quis. Morbi convallis odio diam, interdum congue lorem iaculis vel.</p>
+                    <br>
+                    <p>Praesent a erat vitae sapien rhoncus pretium. Sed quis arcu vel leo rhoncus molestie eget id dolor. Aenean placerat et ligula non dapibus. Donec non elementum est, sit amet placerat augue. Phasellus vel arcu dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque non faucibus ante, eu tincidunt odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ullamcorper venenatis posuere.</p>
+                </div>
+            </div>
+            <div id="sect-contacto" class="seccion">
+                <h4 class="fw-bold">Formulario de contacto</h4>
+                <p>Completa el siguiente formulario para que pueda contactarme contigo.</p>
+                <form class="col-6">
+                    <label>Nombre
+                        <input class="input-formulario" type="text" name="nombre" placeholder="Ingrese su nombre" required/>
+                    </label> 
+                    <label>Apellido
+                        <input class="input-formulario" type="text" name="apellido" placeholder="Ingrese su apellido" />
+                    </label>
+                    <label>E-mail
+                        <input class="input-formulario" type="email" name="email" placeholder="Ingrese su e-mail" required/>
+                    </label>
+                        <input id="boton-enviar" type="submit" value="Enviar" />
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <div id="footer-adorno"></div>
+                <h6 class="fw-bold">Proyecto Final</h6>
+                <p>Front End</p>
+                <p>2023</p>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
